@@ -1,0 +1,6 @@
+str1 = input()
+set1 = set(str1)
+list1 = list(set1)
+list1.sort(reverse=False)
+list1 = "".join(list1)
+print(list1)
